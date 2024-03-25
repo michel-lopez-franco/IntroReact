@@ -1,9 +1,9 @@
 
 
 
-const button = document.querySelector('button');
+const buttons = document.querySelectorAll('button');
 
-
+buttons.forEach(button => {
 button.addEventListener('click', () => {
     
     /*const id = this.getAttribute('data-id');*/
@@ -19,4 +19,6 @@ button.addEventListener('click', () => {
         button.classList.add('liked');
         button.innerText = 'Quitar me gusta';
     }
+});
+
 });
