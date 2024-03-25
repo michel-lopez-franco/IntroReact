@@ -10,6 +10,11 @@ button {
 }
 
 
+div {
+    display: flex;
+    gap: 8px 16px;
+}
+
 body {
     background: #222;
 }
